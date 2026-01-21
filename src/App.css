@@ -1,0 +1,46 @@
+/* src/App.css */
+
+/* Reset some default styles */
+body, html {
+  margin: 0;
+  padding: 0;
+  height: 100%;
+  font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+}
+
+/* Background image for Paradise Nursery landing page */
+.landing-page {
+  background-image: url('./assets/nursery-bg.jpg'); /* place your image in src/assets */
+  background-size: cover;       /* ensures image covers the entire area */
+  background-position: center;  /* centers the image */
+  background-repeat: no-repeat; /* prevents tiling */
+  height: 100vh;                /* full viewport height */
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  color: #fff;                  /* text color for contrast */
+  text-shadow: 1px 1px 4px rgba(0,0,0,0.7);
+}
+
+/* Company name styling */
+.landing-page h1 {
+  font-size: 3rem;
+  margin-bottom: 20px;
+}
+
+/* Get Started button styling */
+.get-started-btn {
+  background-color: #4CAF50; /* green theme for plants */
+  border: none;
+  padding: 12px 24px;
+  font-size: 1.2rem;
+  color: white;
+  cursor: pointer;
+  border-radius: 6px;
+  transition: background-color 0.3s ease;
+}
+
+.get-started-btn:hover {
+  background-color: #45a049;
+}
